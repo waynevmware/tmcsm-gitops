@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: redis:4-32bit
+        image: harbor.huaruicloud.cn/tkg/redis:4-32bit
         resources:
           requests:
             cpu: 200m
