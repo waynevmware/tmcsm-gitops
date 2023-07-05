@@ -11,5 +11,5 @@ replicas:
 - count: 1
   name: realtime
 images:
-- name: gbaeke/flux-rt
-  newTag: sha-11e921f
+- name: harbor.huaruicloud.cn/tkg
+  newTag: 1.0.2
