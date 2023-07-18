@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: realtime
-        image: gbaeke/flux-rt
+        image: harbor.huaruicloud.cn/tkg/flux-rt:latest
         livenessProbe:
           httpGet:
             path: /index.html
