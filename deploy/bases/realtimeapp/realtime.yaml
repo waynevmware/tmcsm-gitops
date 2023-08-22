@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: realtime
-        image: harbor.huaruicloud.cn/tkg/flux-rt:latest
+        image: myharbors.pso.com/library/flux-rt:latest
         livenessProbe:
           httpGet:
             path: /index.html
